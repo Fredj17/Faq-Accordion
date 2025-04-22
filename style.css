@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.sub-container {
+  width: 60%;
+  top: 29%;
+  left: 20%;
+}
+@media (max-width: 390px) {
+  .sub-container {
+    top: 3%;
+    left: 17%;
+    width: 70%;
+  }
+}
+.svg-minus {
+  display: none;
+  cursor: pointer;
+  min-height: 24px;
+  min-width: 25px;
+}
+.svg-plus {
+  cursor: pointer;
+  min-height: 24px;
+  min-width: 25px;
+}
+.fs-1 {
+  color: hsl(292, 42%, 14%);
+}
+.faq-items h5 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+}
+.faq-items h5:hover {
+  color: hsl(300, 100%, 57%);
+}
+.dropdown {
+  display: none;
+  margin-top: 10px;
+  color: hsl(292, 16%, 49%);
+}
+.dropdown.show {
+  display: block;
+}
+
+.card-question {
+  margin-top: 15px;
+}

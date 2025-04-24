@@ -2,11 +2,14 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-
+.main-container {
+  background-color: hsl(275, 100%, 97%);
+}
 .sub-container {
-  width: 60%;
+  width: 36%;
   top: 29%;
-  left: 20%;
+  left: 33%;
+  background-color: #fff;
 }
 @media (max-width: 390px) {
   .sub-container {
